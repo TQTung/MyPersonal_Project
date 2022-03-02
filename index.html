@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Weather App</title>
+</head>
+<body >
+    <div id="weather_app">
+       <div>
+           <input type="text" class="search" placeholder="Search...">
+       </div> 
+       <div class="content">
+           <h1 class="city_country">
+               <span class="city">Ha Noi</span>
+               <span>,</span>
+               <span class="country">VN</span>
+           </h1>
+           <div class="date_time">28/02/2022, 02:07 PM</div>
+           <div class="temperature">
+               <span class="temperature_value">24</span>
+                <span><sup>o</sup>C</span>
+           </div>
+           <div class="weather_desc">Raining</div>
+           <div class="others_desc">
+               <div class="visibility">
+                    <i class="fa-solid fa-eye"></i>
+                    <span>10000m</span>
+               </div>
+               <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>300m/s</span>
+               </div>
+               <div class="humidity">
+                    <i class="fa-solid fa-cloud-sun"></i>
+                    <span>89%</span>
+               </div>
+           </div>
+
+       </div>
+    </div>
+    <script src="./weatherApp.js"></script>
+</body>
+</html>
